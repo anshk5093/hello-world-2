@@ -35,7 +35,7 @@ _start:
 
   ; Linux 32-bit hello world
 
-  ; Write 'Hello, world'
+  ; Write 'Hello world'
   mov ebx, 1        ; fd = stdout
   mov ecx, hello    ; buff = [hello]
   mov edx, hellolen ; len = hellolen
